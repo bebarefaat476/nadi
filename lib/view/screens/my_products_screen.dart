@@ -1,6 +1,3 @@
-import 'dart:html';
-import 'dart:io';
-
 import 'package:firebase_shop_app/core/providers/product_model_provider.dart';
 import 'package:firebase_shop_app/core/providers/products_provider.dart';
 import 'package:firebase_shop_app/utils/view/constant_routs.dart';
@@ -70,7 +67,7 @@ class MyProductsScreen extends StatelessWidget {
         ),
       ),
       leading: CircleAvatar(
-        backgroundImage: FileImage(File(product.imageUrl)),
+        backgroundImage: new AssetImage(product.imageUrl),
         radius: 24,
       ),
       trailing: Text(

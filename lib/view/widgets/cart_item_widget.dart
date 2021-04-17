@@ -78,7 +78,7 @@ class CartItemWidget extends StatelessWidget {
                 width: 75.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: NetworkImage(imageUrl),
+                    image: AssetImage(imageUrl),
                     fit: BoxFit.contain,
                   ),
                 ),

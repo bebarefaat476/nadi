@@ -26,7 +26,7 @@ class ProductDetailsWidget extends StatelessWidget {
       // -------------------------------- Product Image------------------------------- //
       Hero(
           tag: 'tage$index',
-          child: Image.network(product.imageUrl,
+          child: Image.asset(product.imageUrl,
               height: 150.0, width: 100.0, fit: BoxFit.contain)),
       SizedBox(height: 20.0),
       // -------------------------------- Product Price------------------------------- //

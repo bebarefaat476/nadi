@@ -65,7 +65,7 @@ class ProductGridItem extends StatelessWidget {
                       width: 130.0,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: NetworkImage(product.imageUrl),
+                            image: AssetImage(product.imageUrl),
                             fit: BoxFit.contain),
                       ),
                     ),
