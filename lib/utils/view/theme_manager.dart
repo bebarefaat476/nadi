@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ThemeManager {
-  static String appName = "Nadi App";
+  static String appName = "N A D I";
 
   //Colors for theme
   //static Color lightPrimary = Color(0xfffcfcff);
@@ -25,7 +25,7 @@ class ThemeManager {
       elevation: 0.5,
       textTheme: TextTheme(
         title: TextStyle(
-          color: Colors.grey[600],
+          color: Colors.black,
           fontSize: 20.0,
           fontWeight: FontWeight.w500,
         ),
