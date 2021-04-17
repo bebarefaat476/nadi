@@ -8,7 +8,7 @@ class ThemeManager {
   static Color lightPrimary = Colors.white;
   static Color darkPrimary = Colors.black;
   static Color lightAccent = Color(0xFFFF324D);
-  static Color darkAccent = Colors.blueAccent;
+  static Color darkAccent = Color(0xFFFF324D);
 //  static Color lightBG = Color(0xfffcfcff);
   static Color lightBG = Colors.grey.shade50;
   static Color darkBG = Colors.black;

@@ -1,9 +1,11 @@
 import 'package:firebase_shop_app/core/providers/orders_provider.dart';
 import 'package:firebase_shop_app/core/providers/product_model_provider.dart';
+import 'package:firebase_shop_app/splashscreen.dart';
 import 'package:firebase_shop_app/utils/view/theme_manager.dart';
 import 'package:firebase_shop_app/view/widgets/bottom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 import './utils/view/constant_routs.dart';
 import './utils/view/app_router.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider.value(value: ProductsProvider()),
         ChangeNotifierProvider.value(value: CartProvider()),
         ChangeNotifierProvider.value(value: OrdersProvider()),
-//        ChangeNotifierProvider.value(value: ProductModelProvider()),
+       // ChangeNotifierProvider.value(value: ProductModelProvider()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         initialRoute: productsOverviewRoute,
         title: ThemeManager.appName,
         theme: ThemeManager.lightTheme,
-        home: SharedBottomAppBar(),
+        home: SplashScreenWidget(),
       ),
     );
   }
