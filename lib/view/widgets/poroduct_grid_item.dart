@@ -48,7 +48,7 @@ class ProductGridItem extends StatelessWidget {
                                 return IconButton(
                                   icon: value.isFavorite
                                       ? Icon(Icons.favorite,
-                                          color: Color(0xFFEF7532))
+                                          color: Color(0xFFFF324D))
                                       : Icon(Icons.favorite_border,
                                           color: Colors.grey[600]),
                                   color: Theme.of(context).accentColor,
@@ -74,7 +74,7 @@ class ProductGridItem extends StatelessWidget {
                   // -------------------------------- Product price and title -------------------------------- //
                   Text(product.price.toString(),
                       style: TextStyle(
-                          color: Color(0xFFCC8053),
+                          color: Color(0xFFFF324D),
                           fontFamily: 'Varela',
                           fontSize: 14.0)),
                   Text(product.title,
@@ -94,7 +94,7 @@ class ProductGridItem extends StatelessWidget {
                         children: <Widget>[
                           InkWell(
                               child: Icon(Icons.remove_circle_outline,
-                                  color: Color(0xFFD17E50), size: 18.0),
+                                  color: Color(0xFFFF324D), size: 18.0),
                               onTap: () {
                                 cart.decreaseNumberOfProductsInCartItem(
                                     product.id);
@@ -110,12 +110,12 @@ class ProductGridItem extends StatelessWidget {
                                   .toString(),
                               style: TextStyle(
                                   fontFamily: 'Varela',
-                                  color: Color(0xFFD17E50),
+                                  color: Color(0xFFFF324D),
                                   fontWeight: FontWeight.bold,
                                   fontSize: 14.0)),
                           InkWell(
                             child: Icon(Icons.add_circle_outline,
-                                color: Color(0xFFD17E50), size: 18.0),
+                                color: Color(0xFFFF324D), size: 18.0),
                             onTap: () {
                               cart.increaseNumberOfProductsInCartItem(
                                   product.id);
@@ -128,12 +128,12 @@ class ProductGridItem extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           Icon(Icons.shopping_basket,
-                              color: Color(0xFFD17E50), size: 16.0),
+                              color: Color(0xFFFF324D), size: 16.0),
                           InkWell(
                             child: Text('Add to cart',
                                 style: TextStyle(
                                     fontFamily: 'Varela',
-                                    color: Color(0xFFD17E50),
+                                    color: Color(0xFFFF324D),
                                     fontSize: 14.0)),
                             onTap: () {
                               cart.addItemToCart(product.id, product.title,

@@ -42,7 +42,7 @@ class ProductDetailsScreen extends StatelessWidget {
                 return Badge(
                   value: cartData.itemsCount.toString(),
                   child: ch,
-                  color: Colors.orange,
+                  color: Color(0xFFFF324D),
                 );
               },
               child: IconButton(
@@ -56,7 +56,7 @@ class ProductDetailsScreen extends StatelessWidget {
               builder: (BuildContext context, ProductModelProvider value, _) {
                 return IconButton(
                   icon: value.isFavorite
-                      ? Icon(Icons.favorite, color: Color(0xFFEF7532))
+                      ? Icon(Icons.favorite, color: Color(0xFFFF324D))
                       : Icon(Icons.favorite_border, color: Colors.grey[600]),
                   color: Theme.of(context).accentColor,
                   onPressed: value.changeFavoriteStatus,

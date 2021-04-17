@@ -244,7 +244,7 @@ class _AddEditProductScreenState extends State<AddEditProductScreen> {
                             child: _imageUrlController.text.isEmpty
                                 ? Text('Enter a URL')
                                 : FittedBox(
-                                    child: Image.network(
+                                    child: Image.asset(
                                       _imageUrlController.text,
                                       fit: BoxFit.cover,
                                     ),
@@ -294,7 +294,7 @@ class _AddEditProductScreenState extends State<AddEditProductScreen> {
                         width: MediaQuery.of(context).size.width,
                         height: 60,
                         child: RaisedButton(
-                          color: Colors.orange,
+                          color: Color(0xFFFF324D),
                           onPressed: _submitForm,
                           child: Text(
                             widget.productId != 'add' ? 'Save' : 'Add',
@@ -318,7 +318,7 @@ class _AddEditProductScreenState extends State<AddEditProductScreen> {
         width: MediaQuery.of(context).size.width,
         height: 60,
         child: RaisedButton(
-          color: Colors.red,
+          color: Color(0xFFFF324D),
           onPressed: () {
             Provider.of<ProductsProvider>(context, listen: false)
                 .deleteProduct(widget.productId);

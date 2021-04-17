@@ -6,19 +6,19 @@ import 'package:flutter/material.dart';
 class ProductsProvider with ChangeNotifier {
   List<ProductModelProvider> _products = [
     ProductModelProvider(
-        id: 'p6',
-        title: 'A Pan',
-        description: 'Prepare any meal you want.',
-        price: 49.99,
+        id: 'cans.jpg',
+        title: 'Cans',
+        description: 'Cams.',
+        price: 1.99,
         imageUrl:
-            'assets/img/Pan.webp'),
+            'assets/img/cat/cans.jpg'),
     ProductModelProvider(
-        id: 'heba',
-        title: 'Heba & Doksh',
-        description: 'Prepare any meal you want.',
-        price: 49.99,
+        id: 'Nadi Aahu Barah',
+        title: 'Nadi Aahu Barah',
+        description: 'Nadi Aahu Barah.',
+        price: 5.99,
         imageUrl:
-        'assets/img/heba.jpg')
+        'assets/img/products/Nadi Aahu Barah.jpg')
   ];
 
   // getter

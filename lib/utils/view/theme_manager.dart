@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
 class ThemeManager {
-  static String appName = "Shop App";
+  static String appName = "Nadi App";
 
   //Colors for theme
   //static Color lightPrimary = Color(0xfffcfcff);
   static Color lightPrimary = Colors.white;
   static Color darkPrimary = Colors.black;
-  static Color lightAccent = Color(0xFFD17E50);
+  static Color lightAccent = Color(0xFFFF324D);
   static Color darkAccent = Colors.blueAccent;
 //  static Color lightBG = Color(0xfffcfcff);
   static Color lightBG = Colors.grey.shade50;
   static Color darkBG = Colors.black;
-  static Color badgeColor = Colors.red;
+  static Color badgeColor = Color(0xFFFF324D);
 
   static ThemeData lightTheme = ThemeData(
     fontFamily: 'Cairo',

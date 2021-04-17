@@ -20,7 +20,7 @@ class ProductDetailsWidget extends StatelessWidget {
                 fontFamily: 'Varela',
                 fontSize: 42.0,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFFF17532))),
+                color: Color(0xFFFF324D))),
       ),
       SizedBox(height: 15.0),
       // -------------------------------- Product Image------------------------------- //
@@ -36,7 +36,7 @@ class ProductDetailsWidget extends StatelessWidget {
                 fontFamily: 'Varela',
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFFF17532))),
+                color: Color(0xFFFF324D))),
       ),
       SizedBox(height: 10.0),
       // -------------------------------- Product Name ------------------------------- //
@@ -78,7 +78,7 @@ class ProductDetailsWidget extends StatelessWidget {
             height: 50.0,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25.0),
-                color: Color(0xFFF17532)),
+                color: Color(0xFFFF324D)),
             child: Center(
                 child: Text(
               'Add to cart',
