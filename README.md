@@ -1,8 +1,10 @@
-# App Screens
+# Nadi Shop App
+# Version: 1.0
+# Author: Heba Refaat
 
-# nadi_shop_app
-
-A new Flutter application.
+# Requirements
+  - Flutter
+  - Firebase
 
 ## Getting Started
 
